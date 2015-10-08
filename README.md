@@ -1,7 +1,5 @@
 # sklcrm
-****************************************
-******* Code for the SKL-CRM  **********
-****************************************
+
 Current version: 0.1. Distributed under a Creative Commons Attribution-NonCommercial License: http://creativecommons.org/licenses/by-nc/4.0/deed.en_US
 
 This code is a very efficient implementation of the Continous Relevance Image Annotation Model. The code is memory frugal but disk heavy, enabling very large image datasets to be processed on machines with a modicum of RAM e.g. your laptop.
@@ -18,9 +16,8 @@ If you use the SKL-CRM code for a publication, please cite the following papers:
 
 @inproceedings{Moran:2014:SKL:2578726.2578734, author = {Moran, Sean and Lavrenko, Victor}, title = {Sparse Kernel Learning for Image Annotation}, booktitle = {Proceedings of International Conference on Multimedia Retrieval}, series = {ICMR '14}, year = {2014}, isbn = {978-1-4503-2782-4}, location = {Glasgow, United Kingdom}, pages = {113:113--113:120}, articleno = {113}, numpages = {8}, url = {http://doi.acm.org/10.1145/2578726.2578734}, doi = {10.1145/2578726.2578734}, acmid = {2578734}, publisher = {ACM}, address = {New York, NY, USA}, keywords = {Image Annotation, Statistical Models, Visual Features}, }
 
-****************************************
-****************  Usage ****************
-****************************************
+#Usage
+
 1. Obtain the pre-processed dataset files for Corel5K, IAPR-TC12 and ESPGame:
 
 https://www.dropbox.com/sh/289zxx8teqpjyb0/AADTMR_flAlxbojykU4-8Onta?dl=0
@@ -43,15 +40,14 @@ Results computed on 260.000000 words:
 MPR:  0.362088                                                                                                                                                                
 MPP:  0.324235                                                                                                                                                                
 F1:  0.3421                                                                                                                                                                   
-# Words recall > 0:  161.000000   
+Words recall > 0:  161.000000   
 
 To replicate the SKL-CRM results change the kernels in initialise.sh to the optimal
 kernels specified in our journal paper. See the comments in initialise.sh for further
 guidance on how to do this.
  
-****************************************
-************** Copyrights **************
-****************************************
+#Copyright
+
 Copyright (C) by Sean Moran, University of Edinburgh
 
 Please send any bug reports to sean.j.moran@gmail.com
