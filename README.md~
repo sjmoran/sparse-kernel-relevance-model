@@ -21,7 +21,6 @@ If you use the SKL-CRM code for a publication, please cite the following papers:
 #Usage
 
 1. Obtain the pre-processed dataset files for Corel5K, IAPR-TC12 and ESPGame:
-
 https://www.dropbox.com/sh/289zxx8teqpjyb0/AADTMR_flAlxbojykU4-8Onta?dl=0
 
 These are simply the Tagprop features available for download at INRIA here:
