@@ -4,7 +4,7 @@ Current version: 0.1. Distributed under a Creative Commons Attribution-NonCommer
 
 This code is a memory efficient implementation of the Continous Relevance Image Annotation Model. The code is memory frugal but disk heavy, enabling very large image datasets to be processed on machines with a modicum of RAM e.g. your laptop.
 
-[Sean Moran and Victor Lavrenko. A Sparse Kernel Relevance Model for Image Annotation. In IJMIR'14](http://link.springer.com/article/10.1007%2Fs13735-014-0063-y)
+[Sean Moran and Victor Lavrenko. A Sparse Kernel Relevance Model for Image Annotation. In Internatational Journal of Multimedia Information Retrieval 2014](http://link.springer.com/article/10.1007%2Fs13735-014-0063-y)
 
 Prerequisites:
 
