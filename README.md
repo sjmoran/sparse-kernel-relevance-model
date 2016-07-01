@@ -8,7 +8,7 @@ This code is a memory efficient implementation of the Continous Relevance Image 
 
 Prerequisites:
 
-1. Yari MTX library: http://ir.inf.ed.ac.uk/wiki/doku.php?id=yari:mtx
+1. Yari MTX library: see the compiled version (mtx) included with this distribution, or check out: http://ir.inf.ed.ac.uk/wiki/doku.php?id=yari:mtx
 2. Korn Shell: sudo apt-get install ksh
 3. CSH: sudo apt-get install csh
 
