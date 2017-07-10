@@ -6,7 +6,7 @@ This code is a memory efficient implementation of the Continous Relevance Image 
 
 [Sean Moran and Victor Lavrenko. A Sparse Kernel Relevance Model for Image Annotation. International Journal of Multimedia Information Retrieval, 2014](http://link.springer.com/article/10.1007%2Fs13735-014-0063-y)
 
-Prerequisites:
+## Prerequisites:
 
 1. Yari MTX library: see the compiled version (mtx) included with this distribution, or check out: http://ir.inf.ed.ac.uk/wiki/doku.php?id=yari:mtx
 2. Korn Shell: sudo apt-get install ksh
@@ -18,7 +18,7 @@ If you use the SKL-CRM code for a publication, please cite the following papers:
 
 @inproceedings{Moran:2014:SKL:2578726.2578734, author = {Moran, Sean and Lavrenko, Victor}, title = {Sparse Kernel Learning for Image Annotation}, booktitle = {Proceedings of International Conference on Multimedia Retrieval}, series = {ICMR '14}, year = {2014}, isbn = {978-1-4503-2782-4}, location = {Glasgow, United Kingdom}, pages = {113:113--113:120}, articleno = {113}, numpages = {8}, url = {http://doi.acm.org/10.1145/2578726.2578734}, doi = {10.1145/2578726.2578734}, acmid = {2578734}, publisher = {ACM}, address = {New York, NY, USA}, keywords = {Image Annotation, Statistical Models, Visual Features}, }
 
-#Usage
+## Usage
 
 Obtain the pre-processed dataset files for Corel5K, IAPR-TC12 and ESPGame:
 
@@ -48,7 +48,7 @@ To replicate the SKL-CRM results change the kernels in initialise.sh to the opti
 kernels specified in our journal paper. See the comments in initialise.sh for further
 guidance on how to do this.
  
-#Copyright
+## Copyright
 
 Copyright (C) by Sean Moran, University of Edinburgh
 
