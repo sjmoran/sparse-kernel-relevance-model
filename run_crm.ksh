@@ -40,7 +40,7 @@ function set_env_vars
 
 
 ######################################################################################################################################
-# This function performs a grid search for the best kernel bandwidth and multinomial word smoothing parameters
+# This function performs a grid search for the best kernel bandwidth and dirichlet prior word smoothing parameters
 ######################################################################################################################################
 function find_mu_and_beta
 {
@@ -64,7 +64,7 @@ function find_mu_and_beta
 			echo $MU_W > $VALID_TMP_DIR/"MU.txt"
 			echo $MU_W > $TEST_TMP_DIR/"MU.txt"
 
-		        csh $CRM_DIR/multinomial.sh $YARI $VALID_TMP_DIR
+		        csh $CRM_DIR/dirichlet_prior.sh $YARI $VALID_TMP_DIR
 		        wait $!
 
 			csh $CRM_DIR/evaluate.sh $YARI $VALID_DATASET_DIR $VALID_TMP_DIR $VALID_DATASET_PREFIX
@@ -80,7 +80,7 @@ function find_mu_and_beta
 				BW_MAX_W=$BW_W
 				F1_MAX=$VALID_F1
 
-				csh $CRM_DIR/multinomial.sh $YARI $TEST_TMP_DIR
+				csh $CRM_DIR/dirichlet_prior.sh $YARI $TEST_TMP_DIR
 				wait $!
 
 				csh $CRM_DIR/evaluate.sh $YARI $TEST_DATASET_DIR $TEST_TMP_DIR $TEST_DATASET_PREFIX

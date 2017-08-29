@@ -1,7 +1,7 @@
 #!/usr/bin/tcsh -f
 
 #####################################################################################################################################
-# This code is responsible for learning the multinomial word smoothing P(w|I) portion of the CRM
+# This code is responsible for learning the Dirichlet prior word smoothing P(w|I) portion of the CRM
 ######################################################################################################################################
 
 set YARI=$1

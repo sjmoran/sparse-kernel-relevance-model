@@ -5,7 +5,7 @@
 #
 # (a) Loading in the dataset features
 # (b) Computing the dataset distance matrices (kernels)
-# (c) Computing the multinomial word smoothing matrices
+# (c) Computing the Dirichlet prior word smoothing matrices
 #
 ######################################################################################################################################
 
@@ -314,7 +314,7 @@ set NUM_TRAIN_IMAGES=`$YARI size $TMP_DIR/TRAIN_DOC_WORDS_M | cut -d 'x' -f 1 | 
 set NUM_WORDS=`$YARI size $TMP_DIR/TRAIN_DOC_WORDS_M | cut -d 'x' -f 2 | sed 's/ //'` # Number of words
 
 ######################################################################################################################################
-# Compute an initial estimate of the Multinomial word smoothing component of the CRM (P(w|I))
+# Compute an initial estimate of the Dirchlet prior word smoothing component of the CRM (P(w|I))
 ######################################################################################################################################
 set MU=1
 $YARI transpose $TMP_DIR/TRAIN_DOC_WORDS_M
