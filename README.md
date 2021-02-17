@@ -67,11 +67,13 @@ But formatted in ROW-COLUMN-VALUE (RCV) format appropriate for loading into MTX
 Results are in res.log and on standard output. You should get the following results 
 on the Corel5k testing dataset:
 
+```
 Results computed on 260.000000 words:                                                                                                                                         
 MPR:  0.362088                                                                                                                                                                
 MPP:  0.324235                                                                                                                                                                
 F1:  0.3421                                                                                                                                                                   
 Words recall > 0:  161.000000   
+```
 
 To replicate the SKL-CRM results change the kernels in initialise.sh to the optimal
 kernels specified in our journal paper. See the comments in initialise.sh for further
