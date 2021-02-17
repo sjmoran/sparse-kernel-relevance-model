@@ -14,9 +14,12 @@ This code is a memory efficient implementation of the Continous Relevance Image 
 
 If you use the SKL-CRM code for a publication, please cite the following papers:
 
+```
 @article{year={2014}, issn={2192-6611}, journal={International Journal of Multimedia Information Retrieval}, doi={10.1007/s13735-014-0063-y}, title={A sparse kernel relevance model for automatic image annotation}, url={http://dx.doi.org/10.1007/s13735-014-0063-y}, publisher={Springer London}, keywords={Image annotation; Object recognition; Kernel density estimation}, author={Moran, Sean and Lavrenko, Victor}, pages={1-21}, language={English} }
-
+```
+```
 @inproceedings{Moran:2014:SKL:2578726.2578734, author = {Moran, Sean and Lavrenko, Victor}, title = {Sparse Kernel Learning for Image Annotation}, booktitle = {Proceedings of International Conference on Multimedia Retrieval}, series = {ICMR '14}, year = {2014}, isbn = {978-1-4503-2782-4}, location = {Glasgow, United Kingdom}, pages = {113:113--113:120}, articleno = {113}, numpages = {8}, url = {http://doi.acm.org/10.1145/2578726.2578734}, doi = {10.1145/2578726.2578734}, acmid = {2578734}, publisher = {ACM}, address = {New York, NY, USA}, keywords = {Image Annotation, Statistical Models, Visual Features}, }
+```
 
 ## Usage
 
